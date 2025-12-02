@@ -1,0 +1,82 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model LaEmpresa.WebApp.DTOs.PagoDTO
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Registrar pago recurrente</h1>
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Id" type="hidden" class="form-control" name="Id"/>
+                <span asp-validation-for="Id"  class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MetodoPago" class="control-label">Ingrese el metodo de pago</label>
+                <select asp-for="MetodoPago" class="form-control">
+                    <option value="0">Crédito</option>
+                    <option value="1">Efectivo</option>
+                </select>
+                <span asp-validation-for="MetodoPago" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label asp-for="IdTipoDeGasto" class="control-label">Ingrese el tipo de gasto</label>
+                <select asp-for="IdTipoDeGasto" class="form-control">
+                    @foreach (TipoDeGastoDTO tipoDeGasto in ViewBag.TipoDeGasto)
+                    {
+                        <option value="@tipoDeGasto.Id">@tipoDeGasto.Nombre</option>
+                    }
+                </select>
+                <span asp-validation-for="IdTipoDeGasto" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label">Ingrese la descripcion</label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Monto" class="control-label">Ingrese el monto a pagar</label>
+                <input asp-for="Monto" class="form-control" />
+                <span asp-validation-for="Monto" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="FechaDesde" class="control-label">Ingrese la fecha donde comienza el pago</label>
+                <input asp-for="FechaDesde" type="date" class="form-control" />
+                <span asp-validation-for="FechaDesde" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="FechaHasta" class="control-label">Ingrese la fecha donde finaliza el pago</label>
+                <input asp-for="FechaHasta" type="date" class="form-control" />
+                <span asp-validation-for="FechaHasta" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@ViewBag.Error
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<LaEmpresa.WebApp.DTOs.UsuarioDTO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Bienvenido/a, a la Empresa @Context.Session.GetString("email")</h1>
+<h2>@Context.Session.GetString("rol")</h2>
+
+

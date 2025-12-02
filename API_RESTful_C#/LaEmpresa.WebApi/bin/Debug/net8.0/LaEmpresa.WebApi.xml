@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LaEmpresa.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:LaEmpresa.WebApi.Controllers.AuditoriaController.ObtenerPorIdTipoDeGasto(System.Int32)">
+            <summary>
+            Obtiene las auditorias de un tipo de gasto determinado
+            </summary>
+            <param name="idTipoDeGasto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.LoginController.Login(LaEmpresa.LogicaAplicacion.DTOs.LoginRequestDTO)">
+            <summary>
+            Permite iniciar sesion, se le asigan token al usuario
+            </summary>
+            <param name="loginRequestDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.PagoController.PagosDeUsuario(System.Int32)">
+            <summary>
+            Dado un id de usuario devuelve los pagos del mismo, solo funciona con el id el usuario logueado
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.PagoController.PagosMayorMontoEquipo(System.Double)">
+            <summary>
+            Devuelve los equipos, en los cuales algun usuario hizo un pago mayor a un monto determinado
+            </summary>
+            <param name="monto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.PagoController.AltaPagoUnico(LaEmpresa.LogicaAplicacion.DTOs.PagoDTO)">
+            <summary>
+            Agrega un pago unico
+            </summary>
+            <param name="pagoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.PagoController.AltaPagoRecurrente(LaEmpresa.LogicaAplicacion.DTOs.PagoDTO)">
+            <summary>
+            Agrega un pago recurrente
+            </summary>
+            <param name="pagoDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.TipoDeGastoController.ObtenerTiposDeGasto">
+            <summary>
+            Devuelve todos los tipos de gasto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.TipoDeGastoController.ObtenerTipoDeGastoPorId(System.Int32)">
+            <summary>
+            Dado un id devuelve el tipo de gasto correspondiente
+            </summary>
+            <param name="idTipoDeGasto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.TipoDeGastoController.AltaTipoDeGasto(LaEmpresa.LogicaAplicacion.DTOs.TipoDeGastoCreateDTO)">
+            <summary>
+            Agrega un tipo de gasto
+            </summary>
+            <param name="tipoDeGastoCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.TipoDeGastoController.BorrarTipoDeGasto(System.Int32)">
+            <summary>
+            Mediante un id dado, elimina el tipo de gasto asociado.
+            </summary>
+            <param name="idTipoDeGasto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.TipoDeGastoController.EditarTipoDeGasto(LaEmpresa.LogicaAplicacion.DTOs.TipoDeGastoDTO,System.Int32)">
+            <summary>
+            Edita el tipo de gasto del id indicado
+            </summary>
+            <param name="tipoDeGastoDto"></param>
+            <param name="idTipoDeGasto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LaEmpresa.WebApi.Controllers.UsuarioController.ActualizarContrasenia(System.Int32)">
+            <summary>
+            Actuliza la contraseña de un usuario, mediante su id. Devuelve la contraseña nueva.
+            </summary>
+            <param name="idUsuario"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

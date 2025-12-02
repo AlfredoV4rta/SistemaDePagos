@@ -1,0 +1,91 @@
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Desktop\OBLIGATORIO-P3-ORT\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\59892\OneDrive\Desktop\3er Semestre\Obligatorios\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.deps.json
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\bin\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.sourcelink.json
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\refint\LaEmpresa.LogicaNegocio.dll
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\LaEmpresa.LogicaNegocio.pdb
+C:\Users\Lenovo\OneDrive\Escritorio\Facultad\Semestre-3\OBLIGATORIO-P3-ORT\SolucionCompleta\LaEmpresaObligatorio\LaEmpresa.LogicaNegocio\obj\Debug\net8.0\ref\LaEmpresa.LogicaNegocio.dll

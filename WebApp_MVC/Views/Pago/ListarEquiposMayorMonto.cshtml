@@ -1,0 +1,51 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model IEnumerable<LaEmpresa.WebApp.DTOs.EquipoDTO>
+
+@{
+    ViewData["Title"] = "Listar Equipos Por Monto";
+}
+
+<h1>Listar Equipos Por Monto</h1>
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form action="ListarEquiposMayorMonto" method="post">
+            <div class="form-group">
+                <label for="monto" class="control-label">Ingrese un monto:</label>
+                <input type="number" name="monto" class="form-control" id="monto" />
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Filtrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nombre
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (EquipoDTO equipo in Model)
+            {
+                <tr>
+                    <td>
+                        @equipo.Nombre
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

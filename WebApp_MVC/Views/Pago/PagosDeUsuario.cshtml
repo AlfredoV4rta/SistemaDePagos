@@ -1,0 +1,119 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model IEnumerable<LaEmpresa.WebApp.DTOs.PagoDTO>
+
+@{
+    ViewData["Title"] = "Pagos de usuario";
+}
+
+<h1>PagosDeUsuario</h1>
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form action="PagosDeUsuario" method="post">
+            <p class="text-muted">*El filtro toma id valido el propio id del usuario logueado*</p>
+            <br />
+            <p class="text-muted">*Tu id es: @Context.Session.GetInt32("usuarioId")*</p>
+
+            <div class="form-group">
+                <label for="idUsuario" class="control-label">Ingrese su id:</label>
+                <input type="number" name="idUsuario" class="form-control" id="idUsuario" />
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Buscar pagos" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Tipo de Gasto
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    MetodoPago
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Monto
+                </th>
+                <th>
+                    Saldo Pendiente
+                </th>
+                <th>
+                    Fecha Desde
+                </th>
+                <th>
+                    Fecha Hasta
+                </th>
+                <th>
+                    Fecha De Pago
+                </th>
+                <th>
+                    Nro de Recibo
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (PagoDTO pago in Model)
+            {
+                <tr>
+                    <td>
+                        @pago.TipoGasto.Nombre
+                    </td>
+                    <td>
+                        @pago.Usuario.Email
+                    </td>
+                    <td>
+                        @pago.MetodoPago.ToString()
+                    </td>
+                    <td>
+                        @pago.Descripcion
+                    </td>
+                    <td>
+                        @pago.Monto
+                    </td>
+                    <td>
+                        @pago.SaldoPendiente
+                    </td>
+                    @if (pago.FechaDesde == DateTime.MinValue && pago.FechaHasta == DateTime.MinValue)
+                    {
+                        <td> - </td>
+                        <td> - </td>
+                        <td>
+                            @pago.FechaDePago
+                        </td>
+                        <td>
+                            @pago.NroRecibo
+                        </td>
+                    }
+                    @if (pago.FechaDePago == DateTime.MinValue && pago.NroRecibo == "")
+                    {
+                        <td>
+                            @pago.FechaDesde
+                        </td>
+                        <td>
+                            @pago.FechaHasta
+                        </td>
+                        <td> - </td>
+                        <td> - </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
