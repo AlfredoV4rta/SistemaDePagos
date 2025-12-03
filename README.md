@@ -21,21 +21,6 @@ Sistema web académico para la gestión de pagos y usuarios con control de roles
 - **Frontend**: Razor Pages/MVC, Bootstrap, JavaScript
 - **Despliegue**: Azure App Service, Azure SQL Database
 
-## 📦 Instalación
-
-```bash
-# Clonar repositorio
-git clone https://github.com/AlfredoV4rta/SistemaDePagos.git
-cd SistemaDePagos
-
-# Configurar appsettings.json con tu cadena de conexión
-
-# Restaurar y ejecutar
-dotnet restore
-dotnet ef database update
-dotnet run
-```
-
 ## 👥 Roles
 
 - **Administrador**: Acceso completo y gestión de usuarios
