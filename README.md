@@ -18,7 +18,7 @@ Sistema web académico para la gestión de pagos y usuarios con control de roles
 ## 🛠️ Tecnologías
 
 - **Backend**: ASP.NET Core, Entity Framework Core, SQL Server
-- **Frontend**: Razor Pages/MVC, Bootstrap, JavaScript
+- **Frontend**: Razor Pages/MVC, Bootstrap
 - **Despliegue**: Azure App Service, Azure SQL Database
 
 ## 👥 Roles
