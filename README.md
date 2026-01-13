@@ -4,7 +4,7 @@ Sistema web académico para la gestión de pagos y usuarios con control de roles
 
 ## 🌐 Demo en Vivo
 
-**[https://laempresawebapp-e9c7fkdzg6apdgae.brazilsouth-01.azurewebsites.net](https://laempresawebapp-e9c7fkdzg6apdgae.brazilsouth-01.azurewebsites.net)**
+**[laempresaav-c2htb9f9ewhrh6eu.brazilsouth-01.azurewebsites.net](laempresaav-c2htb9f9ewhrh6eu.brazilsouth-01.azurewebsites.net)**
 
 ## 📋 Características
 
