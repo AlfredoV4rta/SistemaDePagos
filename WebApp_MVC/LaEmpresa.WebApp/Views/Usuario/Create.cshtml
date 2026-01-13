@@ -1,0 +1,73 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model LaEmpresa.WebApp.DTOs.UsuarioDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Registrar usuario</h1>
+@if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdEquipo" class="control-label">Elige tu equipo</label>
+				<select asp-for="IdEquipo" class="form-control">
+					@foreach (EquipoDTO equipo in ViewBag.Equipos)
+					{
+						<option value="@equipo.Id">@equipo.Nombre</option>
+					}
+                </select>
+                <span asp-validation-for="IdEquipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label">Ingrese Nombre</label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label">Ingrese Apellido</label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasenia" class="control-label">Ingrese Contraseña</label>
+                <input asp-for="Contrasenia" type="password" class="form-control" />
+                <span asp-validation-for="Contrasenia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rol" class="control-label">Elige un Rol</label>
+                <select asp-for="Rol" class="form-control">
+                    <option value="Gerente">Gerente</option>
+                    <option value="Empleado">Empleado</option>
+                </select>
+                <span asp-validation-for="Rol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

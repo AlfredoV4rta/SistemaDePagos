@@ -1,0 +1,112 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model IEnumerable<LaEmpresa.WebApp.DTOs.PagoDTO>
+
+@{
+    ViewData["Title"] = "Listar Pagos Mensuales";
+}
+
+<h1>ListarPagosMensuales</h1>
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form action="ListarPagosMensuales" method="post">
+            <p class="text-muted">*El filtro toma como día el 1ero del mes ingresado*</p>
+
+            <div class="form-group">
+                <label for="mes" class="control-label">Ingrese un mes:</label>
+                <input type="number" name="mes" class="form-control" id="mes" />
+            </div>
+
+
+                <div class="form-group">
+                <label for="anio" class="control-label">Ingrese un año:</label>
+                <input type="number" name="anio" class="form-control" id="anio" />
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Filtrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if(Model != null && Model.Any())
+{
+ <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    MetodoPago
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Monto
+                </th>
+                <th>
+                    Saldo Pendiente
+                </th>
+                <th>
+                    Fecha Desde
+                </th>
+                <th>
+                    Fecha Hasta
+                </th>
+                <th>
+                    Fecha De Pago
+                </th>
+                <th>
+                    Nro de Recibo
+                </th>
+            </tr>
+        </thead>
+        <tbody> 
+                @foreach (PagoDTO pago in Model)
+            {
+              <tr>           
+               
+                    <td>
+                        @pago.MetodoPago
+                    </td>
+                    <td>
+                        @pago.Descripcion
+                    </td>
+                    <td>
+                        @pago.Monto
+                    </td>
+                    <td>
+                        @pago.SaldoPendiente
+                    </td>
+                    @if (pago.FechaDesde == DateTime.MinValue && pago.FechaHasta == DateTime.MinValue)
+                    {
+                        <td> - </td>
+                        <td> - </td>
+                        <td>
+                            @pago.FechaDePago
+                        </td>
+                        <td>
+                            @pago.NroRecibo
+                        </td>
+                    }
+                    @if (pago.FechaDePago == DateTime.MinValue && pago.NroRecibo == "")
+                    {
+                        <td>
+                            @pago.FechaDesde
+                        </td>
+                        <td>
+                            @pago.FechaHasta
+                        </td>
+                        <td> - </td>
+                        <td> - </td>
+                    }
+                </tr>
+                  }
+        </tbody>
+ </table>
+}

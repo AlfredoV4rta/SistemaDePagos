@@ -1,0 +1,43 @@
+﻿@model IEnumerable<LaEmpresa.WebApp.DTOs.UsuarioDTO>
+
+@{
+    ViewData["Title"] = "Index";
+    string rol = Context.Session.GetString("rol");
+    string[] partesMail = Context.Session.GetString("email").Split("@");
+    string nombreUsuario = partesMail[0];
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center" style="min-height: 60vh;">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3>Bienvenido/a, a la Empresa @nombreUsuario</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <h3>Tu rol es @rol</h3>
+                        @if (@rol == "Gerente")
+                        {
+                            <a asp-controller="Pago" asp-action="ListarEquiposMayorMonto" class="link-customizado">Buscar equipos por monto</a>
+                            <a asp-controller="Pago" asp-action="PagosDeUsuario" class="link-customizado">Ver pagos de tu usuario</a>
+                        }
+                        @if (rol == "Empleado")
+                        {
+                            <a asp-controller="Pago" asp-action="PagosDeUsuario" class="link-customizado">Ver pagos de un usuario</a> <br />
+                            <a asp-controller="Pago" asp-action="Index" class="link-customizado">Agregar Pago</a>
+                        }
+                        @if (rol == "Administrador")
+                        {
+                            <a asp-controller="TipoDeGasto" asp-action="Index" class="link-customizado">Ver tipos de gastos</a>
+                            <a asp-controller="Auditoria" asp-action="AuditoriasPorIdTipoDeGasto" class="link-customizado">Auditorias de tipo de gasto</a>
+                            <a class="link-customizado" asp-controller="Usuario" asp-action="ActualizarContrasenia">Actualizar Contrasenia</a>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

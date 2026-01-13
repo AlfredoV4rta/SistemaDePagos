@@ -1,0 +1,61 @@
+﻿@using LaEmpresa.WebApp.DTOs
+@model IEnumerable<LaEmpresa.WebApp.DTOs.AuditoriaDTO>
+
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<h1>Filtrado de usuarios</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form action="AuditoriasPorIdTipoDeGasto" method="post">
+
+            <div class="form-group">
+                <label for="idTipoDeGasto" class="control-label">Ingrese un id de tipo de gasto:</label>
+                <input type="number" name="idTipoDeGasto" class="form-control" id="idTipoDeGasto" />
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Mostrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@if (Model != null )
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Tipo de operacion
+                </th>
+                <th>
+                    Fecha
+                </th>
+                <th>
+                    Email
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (AuditoriaDTO auditoria in Model)
+            {
+                <tr>
+
+                    <td>
+                        @auditoria.Accion
+                    </td>
+                    <td>
+                        @auditoria.Fecha
+                    </td>
+                    <td>
+                        @auditoria.Email
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
