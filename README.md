@@ -12,7 +12,7 @@ Sistema web académico para la gestión de pagos y usuarios con control de roles
 - ✅ Sistema de roles (Administrador, Supervisor, Usuario)
 - ✅ Registro y seguimiento de pagos
 - ✅ Consultas filtradas por permisos
-- ✅ Interfaz responsiva
+- ✅ Interfaz responsiva apoyado con Github Copilot en Visual Studio
 - ✅ Reportes según rol
 
 ## 🛠️ Tecnologías
@@ -24,12 +24,12 @@ Sistema web académico para la gestión de pagos y usuarios con control de roles
 ## 👥 Roles
 
 - **Administrador**: Acceso completo y gestión de usuarios
-- **Supervisor**: Consulta de pagos departamentales y reportes
-- **Usuario**: Consulta de información personal
+- **Gerente**: Consulta de pagos departamentales y reportes
+- **Empleado**: Consulta de información personal y creacion de pago
 
 ## 👨‍💻 Autor
 
-**Alfredo Varta** - [@AlfredoV4rta](https://github.com/AlfredoV4rta)
+**Alfredo Vartabedian** - [@AlfredoV4rta](https://github.com/AlfredoV4rta)
 
 ---
 
